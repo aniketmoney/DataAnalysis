@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # Load your dataset
-df = pd.read_csv(r"C:\Users\riya choudhary\Downloads\dashboard.csv")
+df = pd.read_csv(r"C:\Users\dell\Downloads\dashboard.csv")
 
 # Check for missing values
 print(df.isnull().sum())
